@@ -17,6 +17,7 @@ func assertEq(t *testing.T, a interface{}, b interface{}) {
 	}
 }
 
+// empty
 func TestAddNonEmpty(t *testing.T) {
 	params := make(Params)
 	params.AddNonEmpty("value", "value")
